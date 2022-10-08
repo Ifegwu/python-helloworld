@@ -2,12 +2,14 @@ name: Docker Build and Push
 
 on: 
   push:
-    branches: [ master ]
+    branches: 
+      - master
   pull_request:
-    branches: [ master ]
+    branches: 
+      - master
 
 jobs:
-  build:
+  docker:
     runs-on: ubuntu-latest
 
     steps:
