@@ -36,4 +36,4 @@ jobs:
           file: ./Dockerfile
           platforms: linux/amd64
           push: true
-          tags: dannie13/python-helloworld:1.0.0
+          tags: dannie13/python-helloworld:latest
